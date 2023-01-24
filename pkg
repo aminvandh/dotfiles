@@ -1,0 +1,7 @@
+adb adwaita-icon-theme autoconf automake autotools-dev bibata-cursor-theme bison flex libssl-dev libelf-dev
+build-essential cargo cmake dkms dwarves emacs feh ffmpeg font-manager gawk gcc gdisk gedit gettext-base git gparted gpg i3 jmtpfs libncurses-dev python3 libxcb-dev maim mtp-tools nautils neofetch pahole picom polybar rofi plymouth plymouth-themes 
+polybar rxvt-unicode vlc vulkan-tools wget nano whiptail  libsdl2-dev libopenal-dev libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libglm-dev libxcb-dri3-0 libxcb-present0 libpciaccess0
+libpng-dev libxcb-keysyms1-dev libxcb-dri3-dev libx11-dev g++ gcc g++-multilib 
+libmirclient-dev libwayland-dev libxrandr-dev libxcb-randr0-dev libxcb-ewmh-dev 
+ python libx11-xcb-dev liblz4-dev libzstd-dev python3-distutils
+ocaml-core ninja-build pkg-config libxml2-dev wayland-protocols python3-jsonschema qtbase5-dev kernel-devel pam-devel eom pinta systemd-boot yggdrasil tor torsocks obfs4proxy
