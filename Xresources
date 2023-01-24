@@ -1,0 +1,104 @@
+URxvt.scrollBar:              false
+URxvt.font:   			          xft:Fantasque Sans Mono:regular:size=11
+URxvt.internalBorder:		      15
+
+! Disable ctrl + shift (insert picture mode)
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+URxvt.perl-ext-common:        default,matcher,resize-font,clipboard,resize-font,url-select,keyboard-select
+
+! Resize fonts
+URxvt.keysym.C-minus:     resize-font:smaller
+URxvt.keysym.C-plus:      resize-font:bigger
+URxvt.keysym.C-equal:     resize-font:reset
+URxvt.keysym.C-question:  resize-font:show
+
+
+URxvt.url-select.launcher:    brave
+URxvt.url-select-underline:   true
+URxvt.colorUL:                #80d3f9
+
+URxvt.keysym.M-u:             perl:url-select:select_next
+URxvt.keysym.M-o:             perl:keyboard-select:activate
+
+URxvt.clipboard.autocopy: true
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+
+URxvt.keysym.Control-V: eval:paste_clipboard
+URxvt.keysym.Control-C: eval:selection_to_clipboard
+
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+
+URxvt.keysym.C-M-c: builtin-string:
+
+URxvt.perl-ext-common: default
+
+! color scheme
+
+! special
+*.foreground:   #eceff1
+*.background:   #1c2028
+*.cursorColor:  #eceff1
+
+! black
+*.color0:       #263238
+*.color8:       #919191
+
+! red
+*.color1:       #ff9800
+*.color9:       #ed973f
+
+! green
+*.color2:       #34f3a5
+*.color10:      #34f3a5
+
+! yellow
+*.color3:       #ffc107
+*.color11:      #ffa000
+
+! blue
+*.color4:       #031f9e
+*.color12:      #03a9f4
+
+! magenta
+*.color5:       #ff5a92
+*.color13:      #ef5b9c
+
+! cyan
+*.color6:       #3ad4c5
+*.color14:      #3ad4c5
+
+! white
+*.color7:       #cfd8dc
+*.color15:      #eceff1
+
+
+Xcursor.theme: Bibata-Modern-Amber
+Xcursor.size: 12
+
+
+rofi.color-window: argb:EE2F343F, #2F343F
+rofi.color-normal: argb:002F343F, #737783, argb:002F343F, argb:002F343F, #f9f9f9
+rofi.color-urgent: argb:002F343F, #cc6666, argb:e54b5160, argb:002F343F, #f9f9f9
+rofi.color-active: argb:002F343F, #65acff, argb:e44b5160, argb:002F343F, #f9f9f9
+rofi.width: 30
+rofi.lines: 20
+rofi.font: Hack Nerd Font Regular 15
+rofi.bw: 0
+rofi.padding: 10
+rofi.eh: 1
+rofi.sidebar-mode: false
+rofi.yoffset: 32
+rofi.xoffset: 5
+rofi.location: 1
+!rofi.location: 2
+rofi.columns: 2
+rofi.separator-style: none
+rofi.hide-scrollbar: true
+rofi.show-icons: true
+rofi.drun-icon-theme: Papirus-Dark
+rofi.modi: window,drun
+rofi.display-drun:  
