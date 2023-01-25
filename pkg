@@ -5,4 +5,4 @@ libpng-dev libxcb-keysyms1-dev libxcb-dri3-dev libx11-dev g++ gcc g++-multilib
 libmirclient-dev libwayland-dev libxrandr-dev libxcb-randr0-dev libxcb-ewmh-dev 
  python libx11-xcb-dev liblz4-dev libzstd-dev python3-distutils
 ocaml-core ninja-build pkg-config libxml2-dev wayland-protocols python3-jsonschema qtbase5-dev kernel-devel pam-devel eom pinta systemd-boot yggdrasil tor torsocks obfs4proxy
-libxcb-keysyms1-dev
+libxcb-keysyms1-dev ninja-build llvm clang
