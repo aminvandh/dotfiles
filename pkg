@@ -10,3 +10,9 @@ libpng-dev libxcb-keysyms1-dev libxcb-dri3-dev libx11-dev g++ gcc g++-multilib
 libmirclient-dev libwayland-dev libxrandr-dev libxcb-randr0-dev libxcb-ewmh-dev 
 git python python3 bison libx11-xcb-dev liblz4-dev libzstd-dev python3-distutils 
 ocaml-core ninja-build pkg-config libxml2-dev glslang-tools glslc
+ibverbs-providers ipxe-qemu libboost-iostreams1.74.0 libboost-thread1.74.0 libbrlapi0.8 libcacard0 libcapstone4
+  libdaxctl1 libexecs0 libfdt1 libgfapi0 libgfrpc0 libgfxdr0 libglusterfs0 libibverbs1 libiscsi7 libndctl6 libpmem1
+  librados2 librbd1 librdmacm1 libslirp0 libspice-server1 libssh-4 libusbredirparser1 libvdeplug2 libvirglrenderer1
+  ovmf qemu-block-extra qemu-efi-aarch64 qemu-efi-arm qemu-system qemu-system-arm qemu-system-common
+  qemu-system-data qemu-system-gui qemu-system-mips qemu-system-misc qemu-system-ppc qemu-system-sparc
+  qemu-system-x86 qemu-utils seabios qemu qemu-system
