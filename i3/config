@@ -40,7 +40,12 @@ exec --no-startup-id nm-applet
 exec --no-startup-id picom --config /home/hooman/.config/picom/picom.conf
 exec --no-startup-id feh --bg-scale /home/hooman/Downloads/mars.jpg
 exec --no-startup-id  /home/hooman/.config/polybar/forest/launch.sh
-
+#
+for_window [class=".*"] border pixel 0
+gaps inner 5
+gaps outer 0
+smart_borders on
+smart_borders no_gaps
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
