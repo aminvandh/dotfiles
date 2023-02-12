@@ -29,7 +29,19 @@ exec --no-startup-id xrdb -merge /home/hooman/.Xresources
 #switch between keyboard layout
 bindsym F2 exec setxkbmap -layout ir
 bindsym F1 exec setxkbmap -layout us
+#scratchpad
+bindsym $mod+y move scratchpad
+bindsym $mod+u scratchpad show
+###
+#floating apps
+for_window [class="Sakura" instance="sakura"] floating enable
+for_window [class="freedownloadmanager" instance="fdm"] floating enable
+for_window [class="kitty" instance="kitty"] floating enable
+for_window [class="calculator" instance="calculator"] floating enable
+for_window [class="nautilus" instance="nautilus"] floating enable
+for_window [class="vlc" instance="vlc"] floating enable
 
+###
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
