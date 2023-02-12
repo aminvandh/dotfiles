@@ -40,6 +40,9 @@ exec --no-startup-id nm-applet
 exec --no-startup-id picom --config /home/hooman/.config/picom/picom.conf
 exec --no-startup-id feh --bg-scale /home/hooman/Downloads/mars.jpg
 exec --no-startup-id  /home/hooman/.config/polybar/forest/launch.sh
+#exec --no-startup-id xwinwrap -g 1920x1080 -d -ov -ni -s -nf -- gifview -w WID $HOME/Downloads/rainy1.gif -a
+exec_always --no-startup-id xwinwrap -fs -ov  -ni -nf -un -s -d -o 1.0 -debug -- mpv -wid WID --loop --no-audio ~/Down>
+
 #
 for_window [class=".*"] border pixel 0
 gaps inner 5
