@@ -16,4 +16,4 @@ ibverbs-providers ipxe-qemu libboost-iostreams1.74.0 libboost-thread1.74.0 libbr
   ovmf qemu-block-extra qemu-efi-aarch64 qemu-efi-arm qemu-system qemu-system-arm qemu-system-common
   qemu-system-data qemu-system-gui qemu-system-mips qemu-system-misc qemu-system-ppc qemu-system-sparc
   qemu-system-x86 qemu-utils seabios qemu qemu-system qemu-kvm virt-manager virtinst libvirt-clients bridge-utils libvirt-daemon-system libqt5help5
-  deborphan pulseaudio pulseaudio-module-gsettings  pulseaudio-utils font-manager
+  deborphan pulseaudio pulseaudio-module-gsettings  pulseaudio-utils
